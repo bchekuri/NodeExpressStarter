@@ -1,0 +1,16 @@
+{
+  "server" : {
+    "port" : "3000"
+  },
+  "express" : {
+    "viewRelativeDir" : "..",
+    "staticRelativeDir" : "..",
+    "static" : "asserts",
+    "views" : "views",
+    "viewEngine" : "ejs"
+  },
+  "logger" : {
+    "env" : "dev"
+  },
+  "apiRoute" : "/api/"
+}
